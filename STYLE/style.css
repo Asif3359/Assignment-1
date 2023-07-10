@@ -1,3 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+
+.banner-1{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background: rgba(229, 84, 115, 0.782);
+    height:100%;
+    
+}
+.banner-content{
+    margin-left: 100px;
+    
+}
+.banner-photo{
+   
+    padding: 100px 100px 0px 100px; 
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    padding: 10px;
+}
+.banner-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    padding: 10px;
+ }
+ .pramiry{
+    border: none;
+    background-color: orangered;
+    padding: 12px 20px;
+}
+ .banner-button{
+    margin: 10px;
+    border-radius: 3px;
+    color: white;
+ }
