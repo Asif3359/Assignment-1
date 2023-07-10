@@ -90,4 +90,19 @@ body{
     font-size: 50px;
  }
  /* featured-section-end-hare */
-
+/* start-service-section */
+.service-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #c4c4c4;
+    padding: 100px;
+    margin: 20px 200px;
+}
+.service-content{
+    text-align: center;
+}
+.service-title{
+    padding: 10px;
+    color: #272727;
+}
