@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
  /* banner-section-Start-hare */
 .banner-1{
@@ -32,11 +32,14 @@ body{
  }
  .pramiry{
     border: none;
-    background-color: orangered;
-    padding: 12px 20px;
+    background-color: palevioletred;
+    padding: 20px;
     border-radius: 3px;
     color: white;
     margin: 10px;
+}
+.pramiry:hover{
+    background-color: rgb(184, 94, 124);
 }
  /* banner-section-end-hare */
 /* featured-section-start-hare */
@@ -49,6 +52,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 15px;
     padding-top: 40px;
  }
  .featured-content{
@@ -96,6 +100,7 @@ body{
     background-color: #c4c4c4;
     padding: 100px;
     margin: 20px 200px;
+    gap: 15px;
 }
 .service-content{
     text-align: center;
@@ -123,7 +128,7 @@ body{
     font-size: 50px;
 }
 /* end-offer-section  */
-
+/* start-insta-section  */
 .instagram-section{
     display: block;
     text-align: center;
@@ -138,5 +143,54 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* gap: 20px; */
+     gap: 15px;;
 }
+/* end-insta-section  */
+
+/* start-deals-section  */
+.deals-section{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 150px;
+    padding: 100px;
+    text-align: center;
+    
+}
+.deals-input{
+    padding:20px 20px 20px 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.deals-title{
+    font-size: 50px;
+}
+/* End-deals-section  */
+.footer-content{
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+    background-color: #272727;
+    margin-top: 50px;
+ 
+}
+.footer-title{
+    font-size: 50px;
+    color: white;
+}
+.footer-paragraph{
+    color: white;
+}
+.span-item{
+    color: palevioletred;
+}
+.all-right-reserved{
+    color: #c6c6c6bf;
+    padding-top: 50px;
+}
+/* end-footer-section  */
