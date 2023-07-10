@@ -116,10 +116,27 @@ body{
     margin-top: 100px;
 }
 .offer-content{
-    width: 45%;
+    width: 55%;
     text-align: center;
 }
 .offer-title{
     font-size: 50px;
 }
 /* end-offer-section  */
+
+.instagram-section{
+    display: block;
+    text-align: center;
+    padding: 100px;
+}
+.insta-content{
+    width: 50%;
+    margin: auto;
+}
+.insta-photo-content{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 20px; */
+}
