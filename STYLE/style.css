@@ -66,10 +66,11 @@ body{
  .pramiry{
     border: none;
     background-color: palevioletred;
-    padding: 20px;
+    padding: 10px 20px;
     border-radius: 3px;
     color: white;
     margin: 10px;
+    cursor: pointer;
 }
 .pramiry:hover{
     background-color: rgb(184, 94, 124);
@@ -193,7 +194,7 @@ body{
     text-align: center;
 }
 .deals-input{
-    padding:20px 20px 20px 10px;
+    padding:10px 20px;
     width: 50%;
     border: none;
     border-radius: 5px;
@@ -204,6 +205,46 @@ body{
     font-size: 50px;
 }
 /* End-deals-section  */
+/* start-about-section  */
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+}
+.about-image{
+    width: 150px;
+    padding: 10px;
+}
+.some-image{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+ 
+}
+.about-image-1{
+    border-radius: 25px;
+}
+.photo-content{
+    text-align: center;
+    margin: 15px;
+}
+.about-ancor{
+    color: #272727;
+}
+.about-title{
+    color: #272727;
+    font-size: 50px;
+    padding: 10px;
+    
+}
+.about-paragraph{
+    font-size: 20px;
+    padding: 10px;
+    color: #767676;
+}
+/* end-about-section  */
+/* start-footer-section  */
 .footer-content{
     display: block;
     margin: auto;
