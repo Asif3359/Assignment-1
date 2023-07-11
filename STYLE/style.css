@@ -5,6 +5,39 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/* start-nav-section  */
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(247, 88, 122, 0.441);
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: palevioletred;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+.nav-li{
+    list-style: none;
+   
+}
+.nav-a{ 
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #e9e0e0e6;
+    border-radius: 3px;
+}
+
+.nav-a:hover{
+    background-color: rgb(184, 94, 124);
+}
+.nav-photo{
+    width: 100px;
+}
+/* end-nav-section  */
+
  /* banner-section-Start-hare */
 .banner-1{
     display: flex;
@@ -149,14 +182,15 @@ body{
 
 /* start-deals-section  */
 .deals-section{
-    background-image: url("../Flower Asset/Rectangle\ 9.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px 150px;
-    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.deals{
+    background-color: #acacac;
+    width:80%;
+    padding: 5%;
     text-align: center;
-    
 }
 .deals-input{
     padding:20px 20px 20px 10px;
